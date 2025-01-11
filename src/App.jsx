@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import Hero from './components/Hero';
 import Nav from './components/Nav';
 import KeyFeatures from './components/KeyFeatures';
+import HowItWorks from './components/HowItWorks';
 
 function App() {
   useEffect(() => {
@@ -99,6 +100,7 @@ function App() {
       <Nav />
       <Hero />
       <KeyFeatures />
+      <HowItWorks />
     </>
   );
 }

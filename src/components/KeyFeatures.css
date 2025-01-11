@@ -64,6 +64,16 @@ body {
         padding: 1rem;
     }
 
+    .KeyFeatures-heading {
+        font-size: 1.7rem;
+        margin-bottom: 5rem;
+        transform: translateY(-8.5rem);
+    }
+
+    .keyfeatures {
+        transform: translateY(-12rem);
+    }
+
     .feature-content {
         width: 100%;
         text-align: center;
