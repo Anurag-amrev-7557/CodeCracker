@@ -43,7 +43,6 @@ body {
     border-radius: 0.7rem;
     cursor: pointer;
     transition: all 0.2s ease;
-    z-index: -1;
   }
 
   .cta-button:hover {

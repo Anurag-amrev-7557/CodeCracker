@@ -1,0 +1,48 @@
+body {
+    --primary-color: #f3f4f6dd;
+}
+
+.keyfeatures {
+    color: var(--primary-color);
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+    padding: 2rem 13rem;
+}
+
+.feature-content {
+    h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1.05rem;
+        margin: 0;
+        width: 70%
+    }
+}
+
+.feature-image img {
+    height: 20rem;
+}
+.other .feature-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+
+    p {
+        text-align: end;
+    }
+
+    h2 {
+        text-align: end;
+    }
+}

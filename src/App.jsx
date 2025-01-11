@@ -83,8 +83,19 @@ function App() {
   return (
     <>
       {/* The particles background */}
-      <div id="particles-js" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1 }}></div>
-
+      <div
+        id="particles-js"
+        style={{
+          position: 'fixed', // Use fixed positioning to make it stay in place
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          zIndex: -1, // Keeps the particles behind all content
+          pointerEvents: 'none' // Ensures the particles don't interfere with interactions
+        }}
+      ></div>
+  
       <Nav />
       <Hero />
       <KeyFeatures />
