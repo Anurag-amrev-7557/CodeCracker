@@ -1,0 +1,126 @@
+body {
+    --primary-color: #f3f4f6cc;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    color: var(--primary-color);
+    margin-top: 3rem;
+  }
+  
+  .hero-content {
+    text-align: center;
+    max-width: 1200px; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    width: 70%;
+  }
+  
+  .cta-button {
+    padding: 0.7rem 1.5rem;
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    outline: none;
+    border: 0.5px solid rgba(255,255,255, 0.35);
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .cta-button:hover {
+    background-color: rgba(255,255,255, 0.15);
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  
+    .cta-button {
+      font-size: 1rem;
+      padding: 12px 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero h1 {
+      font-size: 1.5rem;
+    }
+  
+    .hero p {
+      font-size: 0.9rem;
+    }
+  
+    .cta-button {
+      font-size: 0.9rem;
+      padding: 10px 15px;
+    }
+  }
+  
+
+.logos-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10rem;
+  }
+  
+  .logos-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 1.5rem; 
+    max-width: 80%;
+    width: 100%;
+  }
+  
+  .logo-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 150px; 
+    transition: all 0.3s ease; 
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255, 0.15);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+  }
+
+  .logo-card:hover {
+    background-color: rgba(244, 244, 244, 0.202);
+  }
+
+  #gfg img {
+    max-height: 80px; 
+    max-width: 100%;
+    scale: 0.65;
+  }
+  
+  .logo-card img {
+    max-height: 80px; 
+    max-width: 100%;
+    object-fit: contain;
+  }
