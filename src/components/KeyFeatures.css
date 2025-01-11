@@ -38,7 +38,7 @@ body {
 }
 
 .feature-image img {
-    height: 20rem;
+    height: 15rem;
 }
 
 .other .feature-content {
@@ -85,7 +85,7 @@ body {
     }
 
     .feature-image img {
-        height: 15rem;
+        height: 10rem;
         margin-bottom: 1rem;
     }
 
