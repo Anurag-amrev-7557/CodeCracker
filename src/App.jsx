@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Nav from './components/Nav';
 import KeyFeatures from './components/KeyFeatures';
 import HowItWorks from './components/HowItWorks';
+import Footer from './components/Footer';
 
 function App() {
   useEffect(() => {
@@ -101,6 +102,7 @@ function App() {
       <Hero />
       <KeyFeatures />
       <HowItWorks />
+      <Footer />
     </>
   );
 }
