@@ -114,7 +114,7 @@ body {
     background-color: rgba(244, 244, 244, 0.202);
   }
   
-  #gfg img {
+  #gfg img, #hackerearth img {
     max-height: 80px;
     max-width: 100%;
     scale: 0.65;

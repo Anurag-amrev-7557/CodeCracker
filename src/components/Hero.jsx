@@ -32,6 +32,10 @@ function Hero() {
             <img src='https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png'></img>
             <span className="logo-text">Hackerank</span>
           </div>
+          <div className="logo-card" id='hackerearth'>
+            <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/HackerEarth_logo.png/800px-HackerEarth_logo.png'></img>
+            <span className="logo-text">Hackerearth</span>
+          </div>
         </div>
       </div>
     </section>
